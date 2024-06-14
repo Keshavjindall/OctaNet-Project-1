@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100%;
+            min-height: 100vh;
+        }
+        .icon{
+            width: 100%;
+            min-height: 10vh;
+            background: linear-gradient(#27e0f9, #3551f4);
+        }
+        .OctaNet_icon{
+            width: 15vw;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .nav{
+            background-color: #242424;
+            display: flex;
+            width: 100%;
+            min-height: 5vh;
+            justify-content:center;
+            align-items: center;
+            position: sticky;
+            
+        }
+        .navelements{
+            width: 100%;
+            height: 100%;
+        }
+        .navelements a{
+            color: white;
+            width: 100%;
+            padding: 0px 55px;
+            text-decoration: none;
+            text-align: center;
+            scroll-behavior: smooth;
+        }
+        .navelements a:hover {
+            background-color: #575757;
+        }
+        section{
+            background: linear-gradient(#38fb7f, #3551f4);
+            width: 100%;
+            height: 25vh;
+            display: flex;
+        }
+        .Home{
+            width: 50%;
+            min-height: inherit;
+            text-align: center;
+        }
+        .Home h1{
+            padding:20px;
+        }
+        .Home p{
+            color: white;
+            padding:10px;
+        }
+        .About{
+            width: 50%;
+            min-height: inherit;
+            text-align: center;
+        }
+        .About h1{
+            padding:20px;
+        }
+        .About p{
+            color: white;
+            padding:10px;
+        }
+        article{
+            background: linear-gradient(#3551f4, #7f38fb);
+            width: 100%;
+            height: 35vh;
+            display: flex;
+        }
+        .Business{
+            width: 33%;
+            min-height: inherit;
+            text-align: center;
+        }
+        .Business h1{
+            padding:20px;
+        }
+        .Business p{
+            color: white;
+            padding:10px;
+        }
+        .Services{
+            width: 34%;
+            min-height: inherit;
+            text-align: center;
+        }
+        .Services h1{
+            padding:20px;
+        }
+        .Services dl{
+            color: white;
+        }
+        .Services li{
+            padding: 5px;
+        }
+        .Career{
+            width: 33%;
+            min-height: inherit;
+            text-align: center;
+        }
+        .Career h1{
+            padding:20px;
+        }
+        .Career p{
+            color: white;
+            padding:10px;
+        }
+        aside{
+            background: linear-gradient(#7f38fb, #fa56ec);
+            width: 100%;
+            height: 15vh;
+            display: flex;
+        }
+        .FAQ{
+            width: 50%;
+            min-height: inherit;
+            text-align: center;
+        }
+        .FAQ h1{
+            padding:20px;
+        }
+        .FAQ a{
+            color: white;
+            padding:10px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .FAQ a:hover {
+            background-color: #2ce2f6;
+        }
+        .Contact_Us{
+            width: 50%;
+            min-height: inherit;
+            text-align: center;
+            justify-content: space-between;
+        }
+        .Contact_Us h1{
+            padding:20px;
+        }
+        .Contact_Us i{
+            color: aliceblue;
+            display: inline-flex;
+            padding: 2px 20px;
+            font-size: 28px;
+            align-items: center;
+        }
+        footer{
+            background: linear-gradient(#fa56ec, #f7335d);
+            color: white;
+            width: 100%;
+            height: 10vh;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <a href="https://octanet.in/"><img src="./OctaNet_icon.png" alt="OctaNet" class="OctaNet_icon"></a>
+            <a href=""><i class="ri-facebook-line"></i></a>
+        </div>
+        <nav>
+            <div class="nav">
+                <div class="navelements">
+                    <a href="#Home">Home</a>
+                </div>
+                <div class="navelements">
+                    <a href="#About">About</a>
+                </div>
+                <div class="navelements">
+                    <a href="#Business">Business</a>
+                </div>
+                <div class="navelements">
+                    <a href="#Services">Services</a>
+                </div>
+                <div class="navelements">
+                    <a href="#Career">Career</a>
+                </div>
+                <div class="navelements">
+                    <a href="#FAQ">FAQ</a>
+                </div>
+                <div class="navelements">
+                    <a href="#Contact_Us">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="Home" id="Home">
+                <h1>Home</h1>
+                <p>Welcome To OctaNet.This is our Landing Page.</p>
+            </div>
+            <div class="About" id="About">
+                <h1>About</h1>
+                <h3>We Are Leading StartUp Company In India</h3>
+                <p>As An Organization We Creates And Hosts Web And Android Applications For Our Clients.</p>
+            </div>
+        </section>
+
+        <article>
+            <div class="Business"  id="Business">
+                <h1>Business</h1>
+                <p>OctaNet specializes in providing innovative networking solutions, optimizing connectivity for businesses worldwide with cutting-edge technology and tailored strategies.</p>
+            </div>
+            <div class="Services" id="Services">
+                <h1>Services</h1>
+                <dl>
+                    <dt style="font-size: 20px; padding: 10px;"><strong>Quality Services</strong></dt>
+                    <li>E-Commerce Website</li>
+                    <li>Cloud Hosting Platform</li>
+                    <li>Personalized Website</li>
+                    <li>Data Analysis and Consultancy</li>
+                    <li>Business Tools</li>
+                    <li>Mobile Application</li>
+
+                </ul>
+            </div>
+            <div class="Career" id="Career">
+                <h1>Career</h1>
+                <p>OctaNet fosters a dynamic work environment, encouraging growth and innovation while providing opportunities for professionals to excel in the ever-evolving field of networking technology, shaping the future of connectivity.</p>
+            </div>
+        </article>
+
+        <aside>
+            <div class="FAQ" id="FAQ">
+                <h1>FAQ</h1>
+                <a href="./index.html">GET APPOINTMENT</a>
+            </div>
+            <div class="Contact_Us" id="Contact_Us">
+                <h1>Contact Us</h1>
+                <a href="./index.html"><i class="ri-facebook-line"></i></a>
+                <a href="./index.html"><i class="ri-twitter-line"></i></a>
+                <a href="./index.html"><i class="ri-instagram-line"></i></a>
+                <a href="./index.html"><i class="ri-linkedin-box-fill"></i></a>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2024 OctaNet Services Pvt Ltd.</p>
+    </footer>
+
+</body>
+</html>
